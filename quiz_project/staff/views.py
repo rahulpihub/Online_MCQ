@@ -11,7 +11,7 @@ class StaffHomeView(APIView):
     def get(self, request, *args, **kwargs):
         # Define the data you want to send to the React frontend
         data = {
-            "message": "Wele!",  # Message for the frontend
+            "message": "Running!",  # Message for the frontend
             "status": "mass"  # Status indicator
         }
         # Log the request for debugging purposes
